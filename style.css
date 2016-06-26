@@ -1,0 +1,352 @@
+
+/* MAIN NAV CSS */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin: 0 0 60px;
+}
+
+
+.main-nav {
+  background: #fff;
+  z-index: 200;
+  margin-bottom: -80px;
+  box-shadow: 0 1px 1px #BFD4D9;
+}
+
+.main-nav a {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 22px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #638CA6;
+	display: inline-block;
+	margin: 24px 12px;
+	cursor: pointer;
+}
+
+.main-nav a:hover {
+	color: #0F5959;
+}
+
+#katierose {
+	font-size: 25px;
+	margin-left: 4%;
+	color: #638CA6;
+}
+
+#katierose:hover {
+	color: #0F5959;
+}
+
+.nav-section {
+	float: right;
+	margin-right: 4%;
+}
+
+
+
+
+
+
+/* ABOUT PAGE CSS */
+
+.about {
+	height: 100%;
+	max-width: 75%;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color:#0F5959;
+	padding-top: 15%;
+	margin-bottom: 60px;
+	padding-bottom: 6%;
+}
+
+.about p {
+	line-height: 150%;
+	padding-bottom: 10px;
+}
+
+.about a {
+	color: #638CA6;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.about a:hover {
+	color: #17A697;
+}
+
+
+
+/* STORIES PAGE CSS */
+
+
+/* section, h1, and h4 styling also apply to the interactives page */
+.section {
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 8%;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #17A697;
+	padding-top: 70px;
+}
+
+.h4class {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #0F5959;
+}
+
+.h4class a {
+	color: #0F5959;
+}
+
+.stories {
+	max-width: 75%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.stories h4 {
+	margin-left: 20px;
+}
+
+.stories li {
+	padding-top: 4px;
+}
+
+.stories a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #0F5959;
+}
+
+.stories a:hover {
+	color: #638CA6;
+}
+
+ul {
+	list-style-type: asterisks;
+}
+
+ul > li {
+	color: #17A697;
+}
+
+
+
+
+
+
+/* INTERACTIVES PAGE CSS*/
+
+.table-style {
+	display: table;
+}
+
+.interactives-sub {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.group {
+	color: #17A697;
+}
+
+.item img {
+	max-width: 100%;
+	margin-top: 7%;
+	margin-bottom: 7%;
+	box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+
+.project-info {
+	font-family: 'Open Sans', sans-serif;
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 50px;
+	color: #0F5959;
+}
+
+.project-info a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.project-info p a {
+	color: #17A697;
+}
+
+.project-info a:hover {
+	color: #638CA6;
+}
+
+
+
+/* HIRE ME PAGE CSS */
+
+.hire {
+	max-width:60%;
+	padding-left: 20%;
+	padding-right: 20%
+	font-size: 18px;
+	margin-top: 17%;
+	margin-bottom: 15%;
+	font-family: 'Open Sans', sans-serif;
+	color:#0F5959;
+}
+
+.hire p {
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+
+.hire li {
+	font-size: 16px;
+}
+
+
+
+
+
+/* CONTACT PAGE CSS */
+
+.contact {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	height:100%;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.p1, .p2 {
+	max-width: 60%;
+	padding-left: 20%;
+	color: #0F5959;
+	line-height: 150%
+} 
+
+.p1 {
+	margin-top: 20%;
+}
+
+.p2 {
+	margin-bottom: 15%;
+	padding-bottom: -60px;
+}
+
+.contact a {
+	color: #638CA6;
+	text-decoration: none;
+}
+
+.contact a:hover {
+	color: #0F5959;
+}
+
+
+
+/* FOOTER CSS */
+
+#footer {
+	position: absolute;
+	bottom:0;
+	left:0;
+  	width:100%;
+  	height:60px;
+  	margin-top: -60px;
+  	background-color: #efefef;
+  	text-align: center;
+}
+
+li img {
+    width:36px;
+    height:36px;
+}
+
+ul.social_icons, li.social {
+    display:inline-block;
+    position: relative;
+    margin-bottom:0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width : 768px) {
+	.mobile-indent {
+		max-width: 90%;
+	}
+
+	.main-nav a {
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+
+	.nav-section {
+		float: none;
+		margin-left: 4%;
+	}
+
+	.contact {
+		display:table-cell;
+		vertical-align:middle;
+	}
+
+}
+
+@media only screen and (max-width : 640px) {
+
+	.main-nav a {
+		text-align: left;
+	}
+	.about {
+		margin-top: 20%;
+		max-width: 90%;
+		padding: 5%;
+	}
+	.project-info {
+		width: 100%;
+		display: block;
+		padding: 0;
+	}
+	.item-img {
+		width: 100%;
+	}
+	.image-wrapper {
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.p1, .hire {
+		margin-top: 30%;
+		margin-bottom: 20%;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.mobile-indent {
+		max-width: 85%;
+	}
+
+	.stories {
+		max-width: 85%;
+	}
+}
