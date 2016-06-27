@@ -1,4 +1,3 @@
-
 /* MAIN NAV CSS */
 
 html {
@@ -283,6 +282,8 @@ ul.social_icons, li.social {
 }
 
 
+
+
 /* MEDIA QUERIES */
 @media only screen and (max-width : 768px) {
 	.mobile-indent {
@@ -305,26 +306,20 @@ ul.social_icons, li.social {
 		display:table-cell;
 		vertical-align:middle;
 	}
-
 }
 
 @media only screen and (max-width : 640px) {
 
-	.main-nav a {
-		text-align: left;
-	}
 	.about {
 		margin-top: 20%;
 		max-width: 90%;
 		padding: 5%;
 	}
+
 	.project-info {
 		width: 100%;
 		display: block;
 		padding: 0;
-	}
-	.item-img {
-		width: 100%;
 	}
 	.image-wrapper {
 		width: 85%;
@@ -337,12 +332,18 @@ ul.social_icons, li.social {
 	}
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 460px) {
+	
 	.mobile-indent {
 		max-width: 85%;
 	}
 
+	.main-nav a {
+		font-size: 17px;
+		margin-right:10px;
+	}
+
 	.stories {
-		max-width: 85%;
+		max-width:95%;
 	}
 }
